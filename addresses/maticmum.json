@@ -1,0 +1,52 @@
+{
+	"tokens": {
+		"usdc": "0x2058A9D7613eEE744279e3856Ef0eAda5FCbaA7e",
+		"wmatic": "0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889",
+		"weth":	"0x3C68CE8504087f89c640D02d133646d98e64ddd9",
+		"dai": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+		"usdt":	"0x0d787a4a1548f673ed375445535a6c7A1EE56180",
+		"wbtc": "0x0d787a4a1548f673ed375445535a6c7A1EE56180"
+	},
+	"vaults": {
+		"aave": {
+			"dai": "0x9198F13B08E299d85E096929fA9781A1E3d5d827"
+		}
+	},
+	"balancerVault": "0x20DE048f3789bB5EFaAD6c4c6419DAA4A7698e38",
+	"trancheFactory": "0x66BcC3b00CCe2DF06ED16A7115A54720B86cD149",
+	"convergentCurvePoolFactory": "0xC0924F4198698fcAc10EFFEc53c386c929a240b2",
+	"userProxy": "0x0000000000000000000000000000000000000000",
+	"wrappedPositions": {
+		"aave": {
+			"dai": "0x706603f1F99C7DA29b268D76D4739aB4370Ec881"
+		}
+	},
+	"tranches": {
+		"dai": [
+			{
+				"expiration": 1643290516,
+				"address": "0x17d8073F80decE98f4d1F8c4BE455E1141118d29",
+				"trancheFactory": "0x66BcC3b00CCe2DF06ED16A7115A54720B86cD149",
+				"ptPool": {
+					"address": "0x17479e79AcE9E581ea881b3aBFB2EAd7f76815BF",
+					"poolId": "0x17479e79ace9e581ea881b3abfb2ead7f76815bf000200000000000000000001",
+					"fee": "0.1",
+					"timeStretch": 1
+				},
+				"convergentCurvePoolFactory": "0xC0924F4198698fcAc10EFFEc53c386c929a240b2"
+			},
+			{
+				"expiration": 1646548400,
+				"address": "0x6b92Ab7811A7B26A5D39682EA1c3CBC90A90F2cd",
+				"trancheFactory": "0x66BcC3b00CCe2DF06ED16A7115A54720B86cD149",
+				"ptPool": {
+					"address": "0xEC16d2F953F9331ed3f25cCa1b89ACCd93694931",
+					"poolId": "0xec16d2f953f9331ed3f25cca1b89accd93694931000200000000000000000002",
+					"fee": "0.1",
+					"timeStretch": 1
+				},
+				"convergentCurvePoolFactory": "0xC0924F4198698fcAc10EFFEc53c386c929a240b2"
+			}
+		]
+	}
+}

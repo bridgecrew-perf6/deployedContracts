@@ -1,0 +1,24 @@
+{
+	"incentiveToken": "0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889",
+	"lklStaking": "0x19e42e59195704A4Cb03c8e92c30C9594f2dE6cA",
+	"balancerVault": "0xa03f8ABd2c2Cfc53D3B4038559D7e991561eC568",
+    "underlying": {
+        "dai": {
+            "AaveAssetProxy": "0x706603f1F99C7DA29b268D76D4739aB4370Ec881",
+            "tranches": {
+                "dai": [
+                    {
+                        "expiration": 1646548400,
+                        "duration": "28 days",
+                        "address": "0x6b92Ab7811A7B26A5D39682EA1c3CBC90A90F2cd",
+                        "trancheFactory": "0x66BcC3b00CCe2DF06ED16A7115A54720B86cD149",
+                        "convergentCurvePool": {
+                            "address": "0xEC16d2F953F9331ed3f25cCa1b89ACCd93694931",
+                            "poolId": "0xec16d2f953f9331ed3f25cca1b89accd93694931000200000000000000000002",
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
